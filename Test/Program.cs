@@ -15,7 +15,7 @@ namespace Test
             Console.WriteLine("Adjon meg a második egész számot");
             int masodikszam = Convert.ToInt32(Console.ReadLine());
 
-            
+            Console.WriteLine($"A nagyobbik szám : {Math.Max(elsoszam, masodikszam)}");
             Console.ReadKey();
         }
     }
